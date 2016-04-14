@@ -13,8 +13,9 @@ class DmozSpider(scrapy.Spider):
     name = "dmoz"
     allowed_domains = ["domz.org"]
     start_urls=[
-            "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
-            "http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/",
+            #"http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
+            #"http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/",
+            "http://y.qq.com/",
             ]
 
     #def parse(self, response):
